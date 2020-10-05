@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/1.png</file>
+        <file>res/2.png</file>
+        <file>res/3.png</file>
+        <file>res/4.png</file>
+        <file>res/5.png</file>
+        <file>res/6.png</file>
+        <file>res/7.png</file>
+        <file>res/8.png</file>
+        <file>res/9.png</file>
+        <file>res/10.png</file>
+        <file>res/11.png</file>
+        <file>res/12.png</file>
+        <file>res/13.png</file>
+        <file>res/14.png</file>
+        <file>res/15.png</file>
+        <file>res/76b1614114b74bda99a99fd86bf25be.jpg</file>
+        <file>res/91f4ffff1ab7c3f2ddee4f0a09a53ad.jpg</file>
+        <file>res/5468729d0ff8a073f1d196bedc3fd8a.jpg</file>
+        <file>res/d428b605bb61865fd0b096f795299f6.jpg</file>
+        <file>res/dfd40e0c8fe79bdda0ffd67ecb60e65.jpg</file>
+        <file>res/logo.ico</file>
+        <file>res/logo_com.png</file>
+        <file>res/logo_nju.png</file>
+        <file>res/back.JPG</file>
+        <file>res/help.GIF</file>
+        <file>res/helper1.JPG</file>
+        <file>res/helper2.JPG</file>
+        <file>res/helper3.JPG</file>
+        <file>res/image.qrc</file>
+        <file>res/over.gif</file>
+        <file>res/win.gif</file>
+    </qresource>
+</RCC>

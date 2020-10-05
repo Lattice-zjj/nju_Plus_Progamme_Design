@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Astar" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhQAIBAAADAEAgCQEAIgoAABAAAAAgABAUAAIAABEAI=</HashCode>
+      <FileName>AStar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bullet" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAABAAAAAAAAAAAAQABQAAUgEBgAAAUIgA=</HashCode>
+      <FileName>Bullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyTank" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAEAAAAAQAAAAAIAAAAAIAgAAAAIAAgIAAAAAA=</HashCode>
+      <FileName>EnemyTank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZhuangTank" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>EnemyTank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LightTank" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyTank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HeavyTank" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyTank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFrame" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAACCAAAAAAAAAAAAIAAAAAEAAAAAABEAAAAIAAAA=</HashCode>
+      <FileName>GameFrame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStart" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAABgCCAEKACAgAoAAAgAAAYUAkAACAEIFACAIAFAAI=</HashCode>
+      <FileName>GameStart.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyTank" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAACAAACgAAAAAgAIAAAAAAgAA=</HashCode>
+      <FileName>MyTank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PainterHelper" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAgAAAAAAAAAAAAgCAAAAAAAAAAAA=</HashCode>
+      <FileName>PainterHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAggAAIAABAAABACAAAAAhAQhAQCAgUBgEAAMAgA=</HashCode>
+      <FileName>Tank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tools" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAggAgAAAAAABAAAAAAAAAQABAAhAAAQQEBgAAAEAAA=</HashCode>
+      <FileName>Tools.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="_MAP" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAACAAAAAAABAAAA=</HashCode>
+      <FileName>AStar.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_Node" Collapsed="true">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACAAAACAAAAAAAAAAAAAAAAYQABgAAAAAAA=</HashCode>
+      <FileName>AStar.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="wall" Collapsed="true">
+    <Position X="11.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AStar.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MAP" Collapsed="true">
+    <Position X="9.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AStar.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PMAP" Collapsed="true">
+    <Position X="7.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AStar.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="NODE" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AStar.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PNODE" Collapsed="true">
+    <Position X="3.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AStar.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="__unnamed_enum_0123_1" Collapsed="true">
+    <Position X="14" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAICAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>GameStart.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_wall" Collapsed="true">
+    <Position X="11.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAQAAQAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>AStar.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

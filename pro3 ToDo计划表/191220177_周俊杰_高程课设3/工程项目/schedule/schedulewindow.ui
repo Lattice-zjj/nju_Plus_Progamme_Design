@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ScheduleWindow</class>
+ <widget class="QMainWindow" name="ScheduleWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>667</width>
+    <height>460</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_13">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout_6">
+      <item row="1" column="2">
+       <widget class="QLabel" name="idenline">
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" colspan="3">
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="3">
+         <widget class="QPushButton" name="delete_it">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>删除选中代办</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QPushButton" name="stu_choosecourse">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>增加代办事项</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0" colspan="7">
+         <widget class="QStackedWidget" name="stackedWidget_3">
+          <property name="currentIndex">
+           <number>4</number>
+          </property>
+          <widget class="QWidget" name="page_s_1">
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="0" column="0" colspan="2">
+             <widget class="QTableWidget" name="tableWidget_s_1"/>
+            </item>
+            <item row="1" column="0">
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>295</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="search_2"/>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="page_s_2">
+           <widget class="QWidget" name="layoutWidget_2">
+            <property name="geometry">
+             <rect>
+              <x>140</x>
+              <y>60</y>
+              <width>330</width>
+              <height>191</height>
+             </rect>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_8">
+             <item row="0" column="0" colspan="2">
+              <widget class="QLabel" name="label_10">
+               <property name="text">
+                <string>请输入原来的密码：</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="2" colspan="2">
+              <widget class="QLineEdit" name="pass_past"/>
+             </item>
+             <item row="1" column="0" colspan="2">
+              <widget class="QLabel" name="label">
+               <property name="text">
+                <string>输入要修改成的密码：</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="2" colspan="2">
+              <widget class="QLineEdit" name="pass_now"/>
+             </item>
+             <item row="2" column="0" colspan="2">
+              <widget class="QLabel" name="label_2">
+               <property name="text">
+                <string>请再输入一遍：</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="2" colspan="2">
+              <widget class="QLineEdit" name="pass_nowa"/>
+             </item>
+             <item row="3" column="0">
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>88</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="3" column="1" colspan="2">
+              <widget class="QPushButton" name="modify_pas">
+               <property name="minimumSize">
+                <size>
+                 <width>75</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>修改</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="3">
+              <spacer name="horizontalSpacer_3">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="page_s_3">
+           <layout class="QGridLayout" name="gridLayout_12">
+            <item row="0" column="0">
+             <layout class="QGridLayout" name="gridLayout_11">
+              <item row="0" column="0">
+               <spacer name="horizontalSpacer_11">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="0" column="1">
+               <layout class="QGridLayout" name="gridLayout_9">
+                <item row="0" column="0">
+                 <layout class="QGridLayout" name="gridLayout_3">
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="label_name">
+                    <property name="text">
+                     <string>代办事项名称：</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="1" colspan="2">
+                   <widget class="QLineEdit" name="lineEdit_name">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>15</pointsize>
+                     </font>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QLabel" name="label_time">
+                    <property name="text">
+                     <string>时        长：</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="1">
+                   <widget class="QSlider" name="horizontalSlider_2">
+                    <property name="singleStep">
+                     <number>10</number>
+                    </property>
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="tickInterval">
+                     <number>10</number>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="2">
+                   <widget class="QSpinBox" name="spinBox">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>15</pointsize>
+                     </font>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="0">
+                   <widget class="QLabel" name="label_note">
+                    <property name="text">
+                     <string>备        注：</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="1" colspan="2">
+                   <widget class="QLineEdit" name="lineEdit_note">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>15</pointsize>
+                     </font>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QPushButton" name="SureModify">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>确认添加</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item row="0" column="2">
+               <spacer name="horizontalSpacer_12">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="page_s_4">
+           <layout class="QGridLayout" name="gridLayout_10">
+            <item row="0" column="0">
+             <layout class="QGridLayout" name="gridLayout_7">
+              <item row="0" column="0">
+               <spacer name="horizontalSpacer_13">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="0" column="1">
+               <layout class="QGridLayout" name="gridLayout_4">
+                <item row="0" column="0">
+                 <layout class="QGridLayout" name="gridLayout_2">
+                  <item row="1" column="0">
+                   <widget class="QLabel" name="label_time_2">
+                    <property name="text">
+                     <string>时        长：</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="1" colspan="2">
+                   <widget class="QLineEdit" name="lineEdit_note_2">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>15</pointsize>
+                     </font>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="label_name_2">
+                    <property name="text">
+                     <string>代办事项名称：</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="2">
+                   <widget class="QSpinBox" name="spinBox_2">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>15</pointsize>
+                     </font>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="1" colspan="2">
+                   <widget class="QLineEdit" name="lineEdit_name_2">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>15</pointsize>
+                     </font>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="0">
+                   <widget class="QLabel" name="label_note_2">
+                    <property name="text">
+                     <string>备        注：</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="1">
+                   <widget class="QSlider" name="horizontalSlider">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QPushButton" name="SureModify_2">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>确认修改</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item row="0" column="2">
+               <spacer name="horizontalSpacer_14">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="page_s_5">
+           <widget class="QProgressBar" name="progressBar">
+            <property name="geometry">
+             <rect>
+              <x>150</x>
+              <y>170</y>
+              <width>341</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="value">
+             <number>24</number>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_time_3">
+            <property name="geometry">
+             <rect>
+              <x>140</x>
+              <y>60</y>
+              <width>361</width>
+              <height>81</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>楷体</family>
+              <pointsize>32</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>time</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_3">
+            <property name="geometry">
+             <rect>
+              <x>50</x>
+              <y>170</y>
+              <width>91</width>
+              <height>21</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>16</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:15pt; color:#3232CD;&quot;&gt;完成进度：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;  </string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_4">
+            <property name="geometry">
+             <rect>
+              <x>300</x>
+              <y>20</y>
+              <width>311</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_over">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>20</y>
+              <width>61</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+        </item>
+        <item row="0" column="4">
+         <widget class="QPushButton" name="note_change">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>编辑选中代办</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="stu_inq">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>代办事项</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="5">
+         <widget class="QPushButton" name="stu_person">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>开始选中代办</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="6">
+         <widget class="QPushButton" name="pushButton_music">
+          <property name="minimumSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QPushButton" name="stu_logout">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>注销登陆</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="timeline">
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <spacer name="horizontalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>526</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>667</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
